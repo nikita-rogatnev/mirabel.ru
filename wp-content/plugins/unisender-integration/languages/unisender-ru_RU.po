@@ -1,0 +1,737 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: UniSender II\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: Wed Jun 24 2015 19:52:01 GMT+0300 (EEST)\n"
+"PO-Revision-Date: Mon Aug 03 2015 15:55:56 GMT+0300 (EEST)\n"
+"Last-Translator: admin <r.kurshakov@videal.net>\n"
+"Language-Team: \n"
+"Language: Russian\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10 >= 2 && "
+"n%10<=4 &&(n%100<10||n%100 >= 20)? 1 : 2)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Generator: Loco - https://localise.biz/\n"
+"X-Loco-Target-Locale: ru_RU"
+
+#: ../unisender.php:85
+msgid "Unisender subscription form"
+msgstr "Форма подписки UniSender"
+
+#: ../unisender.php:86
+msgid "Allows you to display the subscription form for the visitors"
+msgstr "Отображать форму подписки на сайте"
+
+#: ../unisender.php:101 ../unisender.php:116 ../class/UnisenderActivation.php:143
+msgid "Subscribe"
+msgstr "Подписаться"
+
+#: ../tpl/ContactList/edit.php:6 ../tpl/ContactList/export.php:5 ..
+#: tpl/ContactList/list.php:6 ../tpl/ContactList/import.php:5 ../tpl/Form/form.
+#: php:6 ../tpl/Message/viewSms.php:6 ../tpl/Message/campaign.php:6 ..
+#: tpl/Message/list.php:6 ../tpl/Message/new.php:6 ../tpl/Message/newSms.php:6 ..
+#: tpl/Message/view.php:6 ../tpl/Field/edit.php:6 ../tpl/Field/list.php:6
+msgid "Contact lists"
+msgstr "Списки контактов"
+
+#: ../tpl/ContactList/edit.php:8 ../tpl/ContactList/export.php:6 ..
+#: tpl/ContactList/list.php:8 ../tpl/ContactList/import.php:6 ../tpl/Form/form.
+#: php:8 ../tpl/Message/viewSms.php:8 ../tpl/Message/campaign.php:8 ..
+#: tpl/Message/list.php:8 ../tpl/Message/new.php:8 ../tpl/Message/newSms.php:8 ..
+#: tpl/Message/view.php:8 ../tpl/Field/edit.php:8 ../tpl/Field/list.php:8
+msgid "Additional fields"
+msgstr "Дополнительные поля"
+
+#: ../tpl/ContactList/edit.php:10 ../tpl/ContactList/export.php:7 ..
+#: tpl/ContactList/list.php:10 ../tpl/ContactList/import.php:7 ../tpl/Form/form.
+#: php:10 ../tpl/Message/viewSms.php:10 ../tpl/Message/campaign.php:10 ..
+#: tpl/Message/list.php:10 ../tpl/Message/new.php:10 ../tpl/Message/newSms.php:
+#: 10 ../tpl/Message/view.php:10 ../tpl/Field/edit.php:10 ../tpl/Field/list.php:10
+msgid "Subscription form"
+msgstr "Форма подписки"
+
+#: ../tpl/ContactList/edit.php:12 ../tpl/ContactList/export.php:8 ..
+#: tpl/ContactList/list.php:12 ../tpl/ContactList/import.php:8 ../tpl/Form/form.
+#: php:12 ../tpl/Message/viewSms.php:12 ../tpl/Message/campaign.php:12 ..
+#: tpl/Message/list.php:12 ../tpl/Message/new.php:12 ../tpl/Message/newSms.php:
+#: 12 ../tpl/Message/view.php:12 ../tpl/Field/edit.php:12 ../tpl/Field/list.php:12
+msgid "Campaigns"
+msgstr "Кампании"
+
+#: ../tpl/ContactList/edit.php:18
+msgid "Edit list"
+msgstr "Изменить"
+
+#: ../tpl/ContactList/edit.php:20 ../tpl/ContactList/list.php:24
+msgid "New contact list"
+msgstr "Новый список контактов"
+
+#: ../tpl/ContactList/edit.php:26 ../tpl/ContactList/edit.php:30 ..
+#: tpl/ContactList/list.php:23 ../tpl/Field/edit.php:26 ../tpl/Field/edit.php:29
+#: ../tpl/Field/list.php:27
+msgid "Title"
+msgstr "Название"
+
+#: ../tpl/ContactList/edit.php:37 ../tpl/Form/form.php:87 ../tpl/Message/campaign.
+#: php:53 ../tpl/Message/new.php:99 ../tpl/Message/newSms.php:73 ..
+#: tpl/Field/edit.php:118
+msgid "Save"
+msgstr "Сохранить"
+
+#: ../tpl/ContactList/edit.php:38 ../tpl/ContactList/export.php:32 ..
+#: tpl/ContactList/import.php:31 ../tpl/Form/form.php:88 ../tpl/Message/viewSms.
+#: php:45 ../tpl/Message/campaign.php:57 ../tpl/Message/new.php:100 ..
+#: tpl/Message/newSms.php:74 ../tpl/Message/view.php:61 ../tpl/Field/edit.php:119
+msgid "Cancel"
+msgstr "Отмена"
+
+#: ../tpl/ContactList/export.php:12
+msgid "Exports from WP in UniSender"
+msgstr "Экспорт из WordPress в UniSender"
+
+#: ../tpl/ContactList/export.php:17 ../tpl/ContactList/import.php:17
+msgid "Users role"
+msgstr "Роли пользователей"
+
+#: ../tpl/ContactList/export.php:21
+msgid "All"
+msgstr "Все"
+
+#: ../tpl/ContactList/export.php:24
+msgid "Select the role of users who want to transfer to the list"
+msgstr "Выберите роль пользователей, которых необходимо добавить в список"
+
+#: ../tpl/ContactList/export.php:31 ../tpl/ContactList/list.php:47
+msgid "Export"
+msgstr "Экспорт"
+
+#: ../tpl/ContactList/list.php:37
+msgid "Default list. All subscribers will be included to this list"
+msgstr "Список по умолчанию. После подписки пользователи добавляются в этот список"
+
+#: ../tpl/ContactList/list.php:43 ../tpl/Field/list.php:56
+msgid "Edit"
+msgstr "Изменить"
+
+#: ../tpl/ContactList/list.php:45 ../tpl/ContactList/import.php:30
+msgid "Import"
+msgstr "Импорт"
+
+#: ../tpl/ContactList/list.php:50
+msgid "Set as default"
+msgstr "Установить по умолчанию"
+
+#: ../tpl/ContactList/list.php:52 ../tpl/ContactList/list.php:52 ..
+#: tpl/Message/list.php:48 ../tpl/Field/list.php:57
+msgid "Delete"
+msgstr "Удалить"
+
+#: ../tpl/ContactList/list.php:63 ../tpl/Message/list.php:62 ../tpl/Field/list.
+#: php:79
+msgid "Sync now"
+msgstr "Синхронизировать сейчас"
+
+#: ../tpl/ContactList/import.php:12
+msgid "Import users in WP from UniSender"
+msgstr "Импорт пользователей в WordPress из UniSender"
+
+#: ../tpl/ContactList/import.php:23
+msgid "Select the role you want to assign new users"
+msgstr "Выберите роль для новых пользователей"
+
+#: ../tpl/Form/form.php:16
+msgid "Edit subscription form"
+msgstr "Изменить форму подписки"
+
+#: ../tpl/Form/form.php:21 ../tpl/Message/viewSms.php:29 ../tpl/Message/list.php:
+#: 25 ../tpl/Message/new.php:51 ../tpl/Message/newSms.php:40 ../tpl/Message/view.
+#: php:45
+msgid "Contact list"
+msgstr "Список контактов"
+
+#: ../tpl/Form/form.php:34 ../tpl/Form/form.php:38
+msgid "Form header"
+msgstr "Заголовок формы"
+
+#: ../tpl/Form/form.php:43 ../tpl/Form/form.php:47
+msgid "Message about the successful subscription"
+msgstr "Сообщение об успешной подписке"
+
+#: ../tpl/Form/form.php:52
+msgid "Create a user with \"Subscriber\""
+msgstr "Создавать пользователя с ролью \"Подписчик\""
+
+#: ../tpl/Form/form.php:56
+msgid ""
+"Before turning on this option, read the <a href=\"https://codex.wordpress."
+"org/Roles_and_Capabilities\" target=\"_blank\"> WordPress documentation on the "
+"rights and roles of users </a>"
+msgstr ""
+"Перед включением данной опции, ознакомьтесь с <a href=\"https://codex."
+"wordpress.org/Roles_and_Capabilities\" target=\"_blank\"> WordPress "
+"документацией о правах и ролях пользователей </a>"
+
+#: ../tpl/Form/form.php:61
+msgid "Fields"
+msgstr "Поля"
+
+#: ../tpl/Form/form.php:69
+msgid "Visible"
+msgstr "Отображается"
+
+#: ../tpl/Form/form.php:73
+msgid "Required"
+msgstr "Обязательное"
+
+#: ../tpl/Message/viewSms.php:16
+msgid "View SMS"
+msgstr "Просмотр СМС"
+
+#: ../tpl/Message/viewSms.php:21 ../tpl/Message/list.php:26 ../tpl/Message/new.
+#: php:31 ../tpl/Message/new.php:36 ../tpl/Message/newSms.php:21 ..
+#: tpl/Message/newSms.php:24 ../tpl/Message/view.php:29
+msgid "Sender"
+msgstr "Отправитель"
+
+#: ../tpl/Message/viewSms.php:35 ../tpl/Message/newSms.php:30 ..
+#: tpl/Message/newSms.php:34
+msgid "SMS text"
+msgstr "Текст СМС"
+
+#: ../tpl/Message/viewSms.php:44 ../tpl/Message/list.php:46 ../tpl/Message/view.
+#: php:60
+msgid "Create copy"
+msgstr "Создать копию"
+
+#: ../tpl/Message/campaign.php:16
+msgid "Schedule campaign"
+msgstr "Запланировать рассылку"
+
+#: ../tpl/Message/campaign.php:16
+msgid "E-mail from:"
+msgstr "E-mail от:"
+
+#: ../tpl/Message/campaign.php:16
+msgid "SMS from:"
+msgstr "СМС от:"
+
+#: ../tpl/Message/campaign.php:21
+msgid "For list"
+msgstr "Для списка"
+
+#: ../tpl/Message/campaign.php:29
+msgid "Date and time of launch"
+msgstr "Дата и время запуска"
+
+#: ../tpl/Message/campaign.php:38
+msgid "Or send immediately"
+msgstr "Или отправить немедленно"
+
+#: ../tpl/Message/campaign.php:55
+msgid "You cannot schedule sending - some required  fields of letter are not filled"
+msgstr ""
+"Вы не можете запланировать рассылку - не все обязательные поля письма "
+"заполнены"
+
+#: ../tpl/Message/list.php:19
+msgid "Show letters, created from"
+msgstr "Показать рассылки, созданные с"
+
+#: ../tpl/Message/list.php:19
+msgid "till"
+msgstr "до"
+
+#: ../tpl/Message/list.php:19
+msgid "Select"
+msgstr "Выбрать"
+
+#: ../tpl/Message/list.php:23 ../tpl/Message/new.php:21 ../tpl/Message/new.php:25
+#: ../tpl/Message/view.php:21
+msgid "Theme"
+msgstr "Тема"
+
+#: ../tpl/Message/list.php:24 ../tpl/Field/edit.php:54
+msgid "Type"
+msgstr "Тип"
+
+#: ../tpl/Message/list.php:26 ../tpl/Message/newSms.php:16
+msgid "New SMS"
+msgstr "Новое СМС"
+
+#: ../tpl/Message/list.php:26 ../tpl/Message/new.php:16
+msgid "New E-mail"
+msgstr "Новое письмо"
+
+#: ../tpl/Message/list.php:36
+msgid "From"
+msgstr "От"
+
+#: ../tpl/Message/list.php:45
+msgid "View"
+msgstr "Просмотр"
+
+#: ../tpl/Message/list.php:47
+msgid "Send/schedule"
+msgstr "Запланировать/отправить"
+
+#: ../tpl/Message/new.php:26
+msgid ""
+"May include <a href=\"http://support.unisender.com/index.php?"
+"/Knowledgebase/Article/View/35/0/podstnovk-strok-v-pisme\" target=\"_ blank\"> "
+"placeholders</a>"
+msgstr ""
+"Может включать <a href=\"http://support.unisender.com/index.php?"
+"/Knowledgebase/Article/View/35/0/podstnovk-strok-v-pisme\" target=\"_ blank\"> "
+"поля подстановки</a>"
+
+#: ../tpl/Message/new.php:37
+msgid "Sender's name. An arbitrary string that does not match the e-mail address"
+msgstr "Имя отправителя, отличное от адреса e-mail\n"
+
+#: ../tpl/Message/new.php:42 ../tpl/Message/new.php:45 ../tpl/Message/view.php:37
+msgid "Sender e-mail"
+msgstr "E-mail отправителя"
+
+#: ../tpl/Message/new.php:46
+msgid ""
+"This e-mail must be checked (for this purpose it is necessary to manually "
+"create at least one letter with the return address of the web interface, "
+"then click \"send confirmation\" and follow the link from the letter)"
+msgstr ""
+"Этот e-mail должен быть проверен (для этого надо создать вручную хотя бы "
+"одно письмо с этим обратным адресом через веб-интерфейс, затем нажать на "
+"ссылку «отправьте запрос подтверждения» и перейти по ссылке из письма)"
+
+#: ../tpl/Message/new.php:64 ../tpl/Message/view.php:51
+msgid "HTML-text of the letter"
+msgstr "HTML-текст письма"
+
+#: ../tpl/Message/new.php:75
+msgid ""
+"It is assumed that the HTML-text contains only the contents of the tag body. "
+"If you pass the entire text of the HTML, then test your further such letters "
+"- headers is body can be subjected to modifications. In addition, to reduce "
+"the difference in the display of various e-mail programs, we automatically "
+"add extra markup to each letter (a table with invisible borders, which also "
+"sets the default font and text alignment along the left border). You can ask "
+"to disable it for your letters, contacting tech support"
+msgstr ""
+"Предполагается, что HTML-текст содержит только содержимое тега body. Если вы "
+"передаёте текст HTML целиком, то тестируйте такие письма дополнительно – "
+"заголовки вне body могут быть подвергнуты модификациям. Кроме того, чтобы "
+"уменьшить расхождение в отображении в различных почтовых программах, мы "
+"автоматически добавляем дополнительную разметку в каждое письмо (таблица с "
+"невидимыми границами, которая также задаёт шрифт по умолчанию и выравнивание "
+"текста по левой границе). Вы можете попросить отключить это для ваших писем, "
+"обратившись в техподдержку"
+
+#: ../tpl/Message/new.php:80 ../tpl/Message/newSms.php:54
+msgid "Serial message"
+msgstr "Серийное письмо"
+
+#: ../tpl/Message/new.php:81 ../tpl/Message/newSms.php:55
+msgid ""
+"For more information about serial letters you can read <a href=\"https:"
+"//support.unisender.com/index.php?/Knowledgebase/Article/View/21/9/serii-"
+"pisem\" target=\"_blank\"> link </a>"
+msgstr ""
+"Для получения более подробной информации о серийных письмах вы можете "
+"воспользоваться <a href=\"https://support.unisender.com/index.php?"
+"/Knowledgebase/Article/View/21/9/serii-pisem\" target=\"_blank\"> ссылкой </a>"
+
+#: ../tpl/Message/new.php:84 ../tpl/Message/newSms.php:58
+msgid ""
+"To enable a letter in a series of automatic dispatch, make the following "
+"entries"
+msgstr ""
+"Чтобы включить письмо в серию автоматической отправки, заполните следующие "
+"данные"
+
+#: ../tpl/Message/new.php:86 ../tpl/Message/newSms.php:60
+msgid "Start day"
+msgstr "День отправки"
+
+#: ../tpl/Message/new.php:90 ../tpl/Message/newSms.php:64
+msgid "Start time"
+msgstr "Время отправки"
+
+#: ../tpl/Message/newSms.php:25
+msgid ""
+"Phone number of the sender or the sender's name up to 11 alphanumeric "
+"characters"
+msgstr "Телефон отправителя либо имя отправителя до 11 латинских букв и цифр"
+
+#: ../tpl/Message/newSms.php:35
+msgid ""
+"SMS text field with <a href=\"http://support.unisender.com/index.php?"
+"/Knowledgebase/Article/View/35/0/podstnovk-strok-v-pisme\" target = \"_ "
+"blank\"> placeholders </a>"
+msgstr ""
+"Текст сообщения с возможностью добавлять \n"
+"<a href=\"http://support.unisender.com/index.php?"
+"/Knowledgebase/Article/View/35/0/podstnovk-strok-v-pisme\" target=\"_ blank\"> \n"
+"поля подстановки\n"
+" </a>"
+
+#: ../tpl/Message/newSms.php:49
+msgid ""
+"Sending messages is only possible on the same ticket. To send a list of "
+"other necessary to create a new message"
+msgstr ""
+"Отправка сообщения возможна только по одному списку. Для отправки по другому "
+"списку надо создавать новое сообщение"
+
+#: ../tpl/Message/view.php:16
+msgid "View E-mail"
+msgstr "Просмотр письма"
+
+#: ../tpl/Activation/registration_form.php:2
+msgid "Unisender registration"
+msgstr "Регистрация в UniSender"
+
+#: ../tpl/Activation/registration_form.php:8 ../tpl/Activation/registration_form.
+#: php:12 ../tpl/Activation/login_form.php:7 ../tpl/Activation/login_form.php:11 .
+#: ./tpl/Activation/login_form.php:27
+msgid "Login"
+msgstr "Логин"
+
+#: ../tpl/Activation/registration_form.php:18 ../tpl/Activation/registration_form.
+#: php:22
+msgid "E-mail"
+msgstr "E-mail"
+
+#: ../tpl/Activation/registration_form.php:28 ../tpl/Activation/registration_form.
+#: php:32
+msgid "First name"
+msgstr "Имя"
+
+#: ../tpl/Activation/registration_form.php:38 ../tpl/Activation/registration_form.
+#: php:42
+msgid "Last name"
+msgstr "Фамилия"
+
+#: ../tpl/Activation/registration_form.php:48 ../tpl/Activation/registration_form.
+#: php:52
+msgid "Password"
+msgstr "Пароль"
+
+#: ../tpl/Activation/registration_form.php:54
+msgid "Repeat password"
+msgstr "Повторите пароль"
+
+#: ../tpl/Activation/registration_form.php:62
+msgid "Register"
+msgstr "Регистрация"
+
+#: ../tpl/Activation/connection.php:4
+msgid ""
+"To get started in the application, you should to register in UniSender, "
+"using the registration form or to login if you already have an account "
+"UniSender"
+msgstr ""
+"Чтобы начать пользоваться плагином, вам необходимо зарегистрироваться в "
+"UniSender, используя форму регистрации или войти если у вас уже есть аккаунт "
+"UniSender"
+
+#: ../tpl/Activation/login_form.php:2
+msgid "UniSender login"
+msgstr "Логин в UniSender"
+
+#: ../tpl/Activation/login_form.php:16 ../tpl/Activation/login_form.php:20
+msgid "API Key"
+msgstr "API-ключ"
+
+#: ../tpl/Field/edit.php:18
+msgid "Edit additional field"
+msgstr "Изменить дополнительное поле"
+
+#: ../tpl/Field/edit.php:20 ../tpl/Field/list.php:39
+msgid "New additional field"
+msgstr "Новое дополнительное поле"
+
+#: ../tpl/Field/edit.php:30
+msgid "Displayed in subscription form as label"
+msgstr "Отображается в форме в виде метки поля(label)"
+
+#: ../tpl/Field/edit.php:35 ../tpl/Field/edit.php:39
+msgid "Variable to substitute"
+msgstr "Переменная для подставновки"
+
+#: ../tpl/Field/edit.php:40
+msgid ""
+"Allowed characters: Latin letters, numbers, _ and -. First character must be "
+"always a letter"
+msgstr ""
+"Допустимые символы: латинские буквы, цифры, _ и -. Первый символ должен быть "
+"всегда буквой"
+
+#: ../tpl/Field/edit.php:45 ../tpl/Field/edit.php:48
+msgid "Placeholder"
+msgstr "Подсказка"
+
+#: ../tpl/Field/edit.php:49
+msgid "Displayed in subscription form as placeholder"
+msgstr "Отображается в форме в виде подсказки внутри поля (placeholder)"
+
+#: ../tpl/Field/edit.php:58
+msgid "Field type"
+msgstr "Тип поля"
+
+#: ../tpl/Field/edit.php:59
+msgid "String"
+msgstr "Строка"
+
+#: ../tpl/Field/edit.php:60
+msgid "Numeric"
+msgstr "Число"
+
+#: ../tpl/Field/edit.php:61
+msgid "Text"
+msgstr "Текст"
+
+#: ../tpl/Field/edit.php:62
+msgid "Yes/No"
+msgstr "Да/Нет"
+
+#: ../tpl/Field/edit.php:63
+msgid "Date"
+msgstr "Дата"
+
+#: ../tpl/Field/edit.php:65
+msgid ""
+"Carefully check the correct field type. For example, when you try to import "
+"a string in the \"Yes / No\", the system will return an error"
+msgstr ""
+"Внимательно проверяйте соответствие типов полей. Например, при попытке "
+"импортировать строку в поле типа \"Да / Нет\", система вернет ошибку"
+
+#: ../tpl/Field/edit.php:70 ../tpl/Field/edit.php:74 ../tpl/Field/list.php:30
+msgid "Related WP field"
+msgstr "Связанное поле WordPress"
+
+#: ../tpl/Field/edit.php:75
+msgid ""
+"Related WP fields are user fields in WordPress, that you associate with "
+"fields UniSender. This link is included in the import/export. You can choose "
+"a field from the list below, or enter it manually"
+msgstr ""
+"Связанные поля WordPress используются для связи пользовательских полей "
+"WordPress и дополнительных полей UniSender. Данная связь используется при "
+"импорте/экспорте для передачи данных в необходимые дополнительные поля."
+
+#: ../tpl/Field/edit.php:90 ../tpl/Field/list.php:34
+msgid "Enabled"
+msgstr "Включено"
+
+#: ../tpl/Field/edit.php:94
+msgid ""
+"This setting affects the derivation of the field in the form, as well as "
+"import/export"
+msgstr "Эта настройка влияет на вывод поля в форме, а также импорт/экспорт"
+
+#: ../tpl/Field/edit.php:99 ../tpl/Field/list.php:37
+msgid "Displays in form"
+msgstr "Отображается в форме"
+
+#: ../tpl/Field/edit.php:100
+msgid "No affects on the import/export"
+msgstr "Не влияет на импорт/экспорт"
+
+#: ../tpl/Field/edit.php:108
+msgid "Required in form"
+msgstr "Обязательно в форме"
+
+#: ../tpl/Field/list.php:54
+msgid "The field email is mandatory and can not be edited"
+msgstr "Дополнительное поле E-mail обязательно и не подлежит изменению"
+
+#: ../class/UnisenderField.php:33 ../class/UnisenderMessage.php:53 ..
+#: class/UnisenderMessage.php:80 ../class/UnisenderForm.php:34 ..
+#: class/UnisenderContactList.php:33 ../class/UnisenderContactList.php:133 ..
+#: class/UnisenderContactList.php:222 ../class/UnisenderActivation.php:84 ..
+#: class/UnisenderActivation.php:108
+msgid "Not all required fields are filled"
+msgstr "Не все обязательные поля заполнены"
+
+#: ../class/UnisenderField.php:39
+msgid "The placeholder contains invalid characters"
+msgstr "Переменная подстановки содержит недопустимые символы"
+
+#: ../class/UnisenderField.php:57
+msgid "Related WP field is not found"
+msgstr "Связанное поле WordPress не найдено"
+
+#: ../class/UnisenderField.php:86
+msgid "The new additional field successfully created"
+msgstr "Новое дополнительноe поле создано успешно"
+
+#: ../class/UnisenderField.php:94 ../class/UnisenderField.php:138
+msgid "Additional field with this Id is not found"
+msgstr "Дополнительное поле с таким Id не найдено"
+
+#: ../class/UnisenderField.php:120
+msgid "The additional field saved successfully"
+msgstr "Дополнительное поле изменено успешно"
+
+#: ../class/UnisenderField.php:134
+msgid "You have not specified Id field"
+msgstr "Вы не выбрали дополнительное поле"
+
+#: ../class/UnisenderField.php:146
+msgid "An additional field is removed"
+msgstr "Дополнительное поле удалено"
+
+#: ../class/UnisenderField.php:289 ../class/UnisenderMessage.php:233 ..
+#: class/UnisenderForm.php:106 ../class/UnisenderContactList.php:403 ..
+#: class/UnisenderActivation.php:223
+msgid "Are you sure you want to delete an item"
+msgstr "Вы уверены, что хотите удалить "
+
+#: ../class/UnisenderField.php:290 ../class/UnisenderMessage.php:234 ..
+#: class/UnisenderForm.php:107 ../class/UnisenderContactList.php:404 ..
+#: class/UnisenderActivation.php:224
+msgid "Set a list of the default #"
+msgstr "Установить списком по умолчанию #"
+
+#: ../class/UnisenderMessage.php:38 ../class/UnisenderMessage.php:111 ..
+#: class/UnisenderMessage.php:185
+msgid "The list is not defined"
+msgstr "Список контактов не определен"
+
+#: ../class/UnisenderMessage.php:66
+msgid "Letter successfully created"
+msgstr "Новое письмо создано успешно"
+
+#: ../class/UnisenderMessage.php:66 ../class/UnisenderMessage.php:91
+msgid "Attention. New letter can appear in the list within one minute"
+msgstr "Внимание! Новое письмо может появиться в списке в течение минуты."
+
+#: ../class/UnisenderMessage.php:91
+msgid "An SMS was successfully created"
+msgstr "СМС создано успешно"
+
+#: ../class/UnisenderMessage.php:101 ../class/UnisenderMessage.php:123 ..
+#: class/UnisenderMessage.php:136 ../class/UnisenderMessage.php:160 ..
+#: class/UnisenderMessage.php:178
+msgid "First select a letter or SMS"
+msgstr "Сначала выберите письмо или СМС"
+
+#: ../class/UnisenderMessage.php:167
+msgid "Message deleted"
+msgstr "Письмо удалено"
+
+#: ../class/UnisenderMessage.php:190
+msgid "You have not specified when sending messages"
+msgstr "Вы не указали, когда запускать рассылку"
+
+#: ../class/UnisenderMessage.php:203
+msgid "Subscribe queued. All messages will be sent"
+msgstr "Рассылка запланирована. Всего будет отправлено писем - "
+
+#: ../class/UnisenderMessage.php:207
+msgid "Maybe there are no active contacts in list or required fields are not filled"
+msgstr ""
+"Возможно,  в списке нет активных контактов или в письме заполнены не все "
+"обязательные поля"
+
+#: ../class/UnisenderForm.php:39
+msgid "The contact list is not found"
+msgstr "Список контактов не найден"
+
+#: ../class/UnisenderForm.php:67
+msgid "Form settings saved"
+msgstr "Настройки формы сохранены"
+
+#: ../class/UnisenderForm.php:81
+msgid "You did not fill the required field"
+msgstr "Вы не заполинили обязательное поле"
+
+#: ../class/UnisenderForm.php:91
+msgid "Thanks for subscribe"
+msgstr "Спасибо за подписку!"
+
+#: ../class/UnisenderContactList.php:49
+msgid "New list has been successfully created"
+msgstr "Новый список контактов создан успешно"
+
+#: ../class/UnisenderContactList.php:56 ../class/UnisenderContactList.php:85 ..
+#: class/UnisenderContactList.php:109 ../class/UnisenderContactList.php:128 ..
+#: class/UnisenderContactList.php:217
+msgid "List with Id not found"
+msgstr "Список контактов с таким Id не найден"
+
+#: ../class/UnisenderContactList.php:70
+msgid "List saved successfully"
+msgstr "Список контактов сохранен успешно"
+
+#: ../class/UnisenderContactList.php:93
+msgid "List deleted"
+msgstr "Список контактов удален"
+
+#: ../class/UnisenderContactList.php:105 ../class/UnisenderContactList.php:123 ..
+#: class/UnisenderContactList.php:213
+msgid "You have not specified Id list"
+msgstr "Вы не выбрали список контактов"
+
+#: ../class/UnisenderContactList.php:114
+msgid "The list is selected by default"
+msgstr "Список указан по умолчанию"
+
+#: ../class/UnisenderContactList.php:196
+msgid "Export incomplete. Error returned:"
+msgstr "Экспорт не завершен. Возвращена ошибка:"
+
+#: ../class/UnisenderContactList.php:203
+msgid "Export completed"
+msgstr "Экспорт завершен"
+
+#: ../class/UnisenderContactList.php:232
+msgid "Import incomplete. Error returned: "
+msgstr "Импорт не завершен. Возвращена ошибка:"
+
+#: ../class/UnisenderContactList.php:270
+msgid "Synchronization is completed"
+msgstr "Синхронизация завершена"
+
+#: ../class/UnisenderActivation.php:97
+msgid "Authorization successful"
+msgstr "Авторизация прошла успешно"
+
+#: ../class/UnisenderActivation.php:112
+msgid "The entered passwords do not match"
+msgstr "Введенные пароли не совпадают"
+
+#: ../class/UnisenderActivation.php:121
+msgid ""
+"Congratulations upon successful registration! In your e-mail message sent to "
+"complete the registration"
+msgstr ""
+"Поздравляем с успешной регистрацией. На ваш электронный ящик отправлено "
+"письмо. Для завершения регистрации следуйте инструкциям в письме."
+
+#: ../class/UnisenderApi.php:507
+msgid "Unable to contact the server Unisender. Try later or contact Customer Support"
+msgstr ""
+"Невозможно связаться с сервисом UniSender или ошибка запроса. Свяжитесь в "
+"Технической поддержкой."
+
+#: ../class/UnisenderApi.php:517
+msgid "Invalid API key"
+msgstr "Неверный Api-ключ"
+
+#: ../class/UnisenderApi.php:518
+msgid "API to be included in the account settings UniSender"
+msgstr "Необходимо включить API в настройках аккаунта UniSender"
+
+#: ../class/UnisenderApi.php:519
+msgid "Introduced incorrect or incomplete data: "
+msgstr "Введенны неверные или неполные данные:"

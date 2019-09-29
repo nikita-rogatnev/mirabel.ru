@@ -1,0 +1,7 @@
+.unisender_form input[type="text"],
+.unisender_form input[type="date"],
+.unisender_form input[type="email"],
+.unisender_form input[type="number"],
+.unisender_form textarea {
+	width: 100%;
+}

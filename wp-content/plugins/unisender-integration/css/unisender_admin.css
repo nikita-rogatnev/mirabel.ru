@@ -1,0 +1,107 @@
+.unisender-standard-fields a {
+	cursor: pointer;
+	margin-right: 10px;
+}
+
+[draggable] {
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	user-select: none;
+	/* Required to make elements draggable in old WebKit */
+	-khtml-user-drag: element;
+	-webkit-user-drag: element;
+}
+
+.unisenderFormFields .column {
+	height: 100px;
+	width: 200px;
+	margin-bottom: 5px;
+	background-color: #ffffff;
+	margin-right: 5px;
+	-webkit-border-radius: 10px;
+	-ms-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 3px #000;
+	-ms-box-shadow: inset 0 0 3px #000;
+	box-shadow: inset 0 0 3px #000;
+	text-align: center;
+	cursor: move;
+}
+
+.unisenderFormFields .column header {
+	color: #fff;
+	text-shadow: #000 0 1px;
+	box-shadow: 5px;
+	padding: 5px;
+	background: -moz-linear-gradient(left center, rgb(0,0,0), rgb(79,79,79), rgb(21,21,21));
+	background: -webkit-gradient(linear, left top, right top,
+	color-stop(0, rgb(0,0,0)),
+	color-stop(0.50, rgb(79,79,79)),
+	color-stop(1, rgb(21,21,21)));
+	background: -webkit-linear-gradient(left center, rgb(0,0,0), rgb(79,79,79), rgb(21,21,21));
+	background: -ms-linear-gradient(left center, rgb(0,0,0), rgb(79,79,79), rgb(21,21,21));
+	border-bottom: 1px solid #ddd;
+	-webkit-border-top-left-radius: 10px;
+	-moz-border-radius-topleft: 10px;
+	-ms-border-radius-topleft: 10px;
+	border-top-left-radius: 10px;
+	-webkit-border-top-right-radius: 10px;
+	-ms-border-top-right-radius: 10px;
+	-moz-border-radius-topright: 10px;
+	border-top-right-radius: 10px;
+}
+
+.unisenderFormFields .column.over {
+	border: 2px dashed #000;
+}
+
+.unisenderFormFields .column div {
+	text-align: right;
+	height: 50px;
+	clear: both;
+	padding: 8px 10px;
+}
+
+form[name^="unisender"] input[type="text"],
+form[name^="unisender"] input[type="date"],
+form[name^="unisender"] input[type="email"],
+form[name^="unisender"] input[type="number"],
+form[name^="unisender"] textarea {
+	width: auto !important;
+}
+
+.manage-column {
+	padding: 5px;
+}
+
+.add-new-h2 {
+	margin: 5px 0 0 0;
+}
+
+th {
+	text-align: left;
+}
+
+.unisenderListTable {
+	min-width: 536px;
+	border: 1px solid #e5e5e5;
+	-webkit-box-shadow: 0 1px 1px rgba(0,0,0,.04);
+	box-shadow: 0 1px 1px rgba(0,0,0,.04);
+}
+
+.unisenderListTable,
+.unisenderListTable thead {
+	border-top: none;
+	border-spacing: 0!important;
+
+}
+
+.unisenderListTable .column-title {
+	background: #FFFFFF;
+}
+
+.unisenderListTable a {
+	text-decoration: none;
+}

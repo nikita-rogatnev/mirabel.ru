@@ -1,0 +1,691 @@
+# Loco Gettext template
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: UniSender II\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: Wed Jun 24 2015 19:52:01 GMT+0300 (EEST)\n"
+"POT-Revision-Date: Mon Jul 06 2015 18:17:07 GMT+0300 (EEST)\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#: ../unisender.php:85
+msgid "Unisender subscription form"
+msgstr ""
+
+#: ../unisender.php:86
+msgid "Allows you to display the subscription form for the visitors"
+msgstr ""
+
+#: ../unisender.php:101 ../unisender.php:116 ../class/UnisenderActivation.php:143
+msgid "Subscribe"
+msgstr ""
+
+#: ../tpl/ContactList/edit.php:6 ../tpl/ContactList/export.php:5 ..
+#: /tpl/ContactList/list.php:6 ../tpl/ContactList/import.php:5 ../tpl/Form/form.
+#: php:6 ../tpl/Message/viewSms.php:6 ../tpl/Message/campaign.php:6 ..
+#: /tpl/Message/list.php:6 ../tpl/Message/new.php:6 ../tpl/Message/newSms.php:6 ..
+#: /tpl/Message/view.php:6 ../tpl/Field/edit.php:6 ../tpl/Field/list.php:6
+msgid "Contact lists"
+msgstr ""
+
+#: ../tpl/ContactList/edit.php:8 ../tpl/ContactList/export.php:6 ..
+#: /tpl/ContactList/list.php:8 ../tpl/ContactList/import.php:6 ../tpl/Form/form.
+#: php:8 ../tpl/Message/viewSms.php:8 ../tpl/Message/campaign.php:8 ..
+#: /tpl/Message/list.php:8 ../tpl/Message/new.php:8 ../tpl/Message/newSms.php:8 ..
+#: /tpl/Message/view.php:8 ../tpl/Field/edit.php:8 ../tpl/Field/list.php:8
+msgid "Additional fields"
+msgstr ""
+
+#: ../tpl/ContactList/edit.php:10 ../tpl/ContactList/export.php:7 ..
+#: /tpl/ContactList/list.php:10 ../tpl/ContactList/import.php:7 ../tpl/Form/form.
+#: php:10 ../tpl/Message/viewSms.php:10 ../tpl/Message/campaign.php:10 ..
+#: /tpl/Message/list.php:10 ../tpl/Message/new.php:10 ../tpl/Message/newSms.php:
+#: 10 ../tpl/Message/view.php:10 ../tpl/Field/edit.php:10 ../tpl/Field/list.php:10
+msgid "Subscription form"
+msgstr ""
+
+#: ../tpl/ContactList/edit.php:12 ../tpl/ContactList/export.php:8 ..
+#: /tpl/ContactList/list.php:12 ../tpl/ContactList/import.php:8 ../tpl/Form/form.
+#: php:12 ../tpl/Message/viewSms.php:12 ../tpl/Message/campaign.php:12 ..
+#: /tpl/Message/list.php:12 ../tpl/Message/new.php:12 ../tpl/Message/newSms.php:
+#: 12 ../tpl/Message/view.php:12 ../tpl/Field/edit.php:12 ../tpl/Field/list.php:12
+msgid "Campaigns"
+msgstr ""
+
+#: ../tpl/ContactList/edit.php:18
+msgid "Edit list"
+msgstr ""
+
+#: ../tpl/ContactList/edit.php:20 ../tpl/ContactList/list.php:24
+msgid "New contact list"
+msgstr ""
+
+#: ../tpl/ContactList/edit.php:26 ../tpl/ContactList/edit.php:30 ..
+#: /tpl/ContactList/list.php:23 ../tpl/Field/edit.php:26 ../tpl/Field/edit.php:29 
+#: ../tpl/Field/list.php:27
+msgid "Title"
+msgstr ""
+
+#: ../tpl/ContactList/edit.php:37 ../tpl/Form/form.php:87 ../tpl/Message/campaign.
+#: php:53 ../tpl/Message/new.php:99 ../tpl/Message/newSms.php:73 ..
+#: /tpl/Field/edit.php:118
+msgid "Save"
+msgstr ""
+
+#: ../tpl/ContactList/edit.php:38 ../tpl/ContactList/export.php:32 ..
+#: /tpl/ContactList/import.php:31 ../tpl/Form/form.php:88 ../tpl/Message/viewSms.
+#: php:45 ../tpl/Message/campaign.php:57 ../tpl/Message/new.php:100 ..
+#: /tpl/Message/newSms.php:74 ../tpl/Message/view.php:61 ../tpl/Field/edit.php:119
+msgid "Cancel"
+msgstr ""
+
+#: ../tpl/ContactList/export.php:12
+msgid "Exports from WP in UniSender"
+msgstr ""
+
+#: ../tpl/ContactList/export.php:17 ../tpl/ContactList/import.php:17
+msgid "Users role"
+msgstr ""
+
+#: ../tpl/ContactList/export.php:21
+msgid "All"
+msgstr ""
+
+#: ../tpl/ContactList/export.php:24
+msgid "Select the role of users who want to transfer to the list"
+msgstr ""
+
+#: ../tpl/ContactList/export.php:31 ../tpl/ContactList/list.php:47
+msgid "Export"
+msgstr ""
+
+#: ../tpl/ContactList/list.php:37
+msgid "Default list. All subscribers will be included to this list"
+msgstr ""
+
+#: ../tpl/ContactList/list.php:43 ../tpl/Field/list.php:56
+msgid "Edit"
+msgstr ""
+
+#: ../tpl/ContactList/list.php:45 ../tpl/ContactList/import.php:30
+msgid "Import"
+msgstr ""
+
+#: ../tpl/ContactList/list.php:50
+msgid "Set as default"
+msgstr ""
+
+#: ../tpl/ContactList/list.php:52 ../tpl/ContactList/list.php:52 ..
+#: /tpl/Message/list.php:48 ../tpl/Field/list.php:57
+msgid "Delete"
+msgstr ""
+
+#: ../tpl/ContactList/list.php:63 ../tpl/Message/list.php:62 ../tpl/Field/list.
+#: php:79
+msgid "Sync now"
+msgstr ""
+
+#: ../tpl/ContactList/import.php:12
+msgid "Import users in WP from UniSender"
+msgstr ""
+
+#: ../tpl/ContactList/import.php:23
+msgid "Select the role you want to assign new users"
+msgstr ""
+
+#: ../tpl/Form/form.php:16
+msgid "Edit subscription form"
+msgstr ""
+
+#: ../tpl/Form/form.php:21 ../tpl/Message/viewSms.php:29 ../tpl/Message/list.php:
+#: 25 ../tpl/Message/new.php:51 ../tpl/Message/newSms.php:40 ../tpl/Message/view.
+#: php:45
+msgid "Contact list"
+msgstr ""
+
+#: ../tpl/Form/form.php:34 ../tpl/Form/form.php:38
+msgid "Form header"
+msgstr ""
+
+#: ../tpl/Form/form.php:43 ../tpl/Form/form.php:47
+msgid "Message about the successful subscription"
+msgstr ""
+
+#: ../tpl/Form/form.php:52
+msgid "Create a user with \"Subscriber\""
+msgstr ""
+
+#: ../tpl/Form/form.php:56
+msgid ""
+"Before turning on this option, read the <a href=\"https://codex.wordpress."
+"org/Roles_and_Capabilities\" target=\"_blank\"> WordPress documentation on the "
+"rights and roles of users </a>"
+msgstr ""
+
+#: ../tpl/Form/form.php:61
+msgid "Fields"
+msgstr ""
+
+#: ../tpl/Form/form.php:69
+msgid "Visible"
+msgstr ""
+
+#: ../tpl/Form/form.php:73
+msgid "Required"
+msgstr ""
+
+#: ../tpl/Message/viewSms.php:16
+msgid "View SMS"
+msgstr ""
+
+#: ../tpl/Message/viewSms.php:21 ../tpl/Message/list.php:26 ../tpl/Message/new.
+#: php:31 ../tpl/Message/new.php:36 ../tpl/Message/newSms.php:21 ..
+#: /tpl/Message/newSms.php:24 ../tpl/Message/view.php:29
+msgid "Sender"
+msgstr ""
+
+#: ../tpl/Message/viewSms.php:35 ../tpl/Message/newSms.php:30 ..
+#: /tpl/Message/newSms.php:34
+msgid "SMS text"
+msgstr ""
+
+#: ../tpl/Message/viewSms.php:44 ../tpl/Message/list.php:46 ../tpl/Message/view.
+#: php:60
+msgid "Create copy"
+msgstr ""
+
+#: ../tpl/Message/campaign.php:16
+msgid "Schedule campaign"
+msgstr ""
+
+#: ../tpl/Message/campaign.php:16
+msgid "E-mail from:"
+msgstr ""
+
+#: ../tpl/Message/campaign.php:16
+msgid "SMS from:"
+msgstr ""
+
+#: ../tpl/Message/campaign.php:21
+msgid "For list"
+msgstr ""
+
+#: ../tpl/Message/campaign.php:29
+msgid "Date and time of launch"
+msgstr ""
+
+#: ../tpl/Message/campaign.php:38
+msgid "Or send immediately"
+msgstr ""
+
+#: ../tpl/Message/campaign.php:55
+msgid "You cannot schedule sending - some required  fields of letter are not filled"
+msgstr ""
+
+#: ../tpl/Message/list.php:19
+msgid "Show letters, created from"
+msgstr ""
+
+#: ../tpl/Message/list.php:19
+msgid "till"
+msgstr ""
+
+#: ../tpl/Message/list.php:19
+msgid "Select"
+msgstr ""
+
+#: ../tpl/Message/list.php:23 ../tpl/Message/new.php:21 ../tpl/Message/new.php:25 
+#: ../tpl/Message/view.php:21
+msgid "Theme"
+msgstr ""
+
+#: ../tpl/Message/list.php:24 ../tpl/Field/edit.php:54
+msgid "Type"
+msgstr ""
+
+#: ../tpl/Message/list.php:26 ../tpl/Message/newSms.php:16
+msgid "New SMS"
+msgstr ""
+
+#: ../tpl/Message/list.php:26 ../tpl/Message/new.php:16
+msgid "New E-mail"
+msgstr ""
+
+#: ../tpl/Message/list.php:36
+msgid "From"
+msgstr ""
+
+#: ../tpl/Message/list.php:45
+msgid "View"
+msgstr ""
+
+#: ../tpl/Message/list.php:47
+msgid "Send/schedule"
+msgstr ""
+
+#: ../tpl/Message/new.php:26
+msgid ""
+"May include <a href=\"http://support.unisender.com/index.php?"
+"/Knowledgebase/Article/View/35/0/podstnovk-strok-v-pisme\" target=\"_ blank\"> "
+"placeholders</a>"
+msgstr ""
+
+#: ../tpl/Message/new.php:37
+msgid "Sender's name. An arbitrary string that does not match the e-mail address"
+msgstr ""
+
+#: ../tpl/Message/new.php:42 ../tpl/Message/new.php:45 ../tpl/Message/view.php:37
+msgid "Sender e-mail"
+msgstr ""
+
+#: ../tpl/Message/new.php:46
+msgid ""
+"This e-mail must be checked (for this purpose it is necessary to manually "
+"create at least one letter with the return address of the web interface, "
+"then click \"send confirmation\" and follow the link from the letter)"
+msgstr ""
+
+#: ../tpl/Message/new.php:64 ../tpl/Message/view.php:51
+msgid "HTML-text of the letter"
+msgstr ""
+
+#: ../tpl/Message/new.php:75
+msgid ""
+"It is assumed that the HTML-text contains only the contents of the tag body. "
+"If you pass the entire text of the HTML, then test your further such letters "
+"- headers is body can be subjected to modifications. In addition, to reduce "
+"the difference in the display of various e-mail programs, we automatically "
+"add extra markup to each letter (a table with invisible borders, which also "
+"sets the default font and text alignment along the left border). You can ask "
+"to disable it for your letters, contacting tech support"
+msgstr ""
+
+#: ../tpl/Message/new.php:80 ../tpl/Message/newSms.php:54
+msgid "Serial message"
+msgstr ""
+
+#: ../tpl/Message/new.php:81 ../tpl/Message/newSms.php:55
+msgid ""
+"For more information about serial letters you can read <a href=\"https:"
+"//support.unisender.com/index.php?/Knowledgebase/Article/View/21/9/serii-"
+"pisem\" target=\"_blank\"> link </a>"
+msgstr ""
+
+#: ../tpl/Message/new.php:84 ../tpl/Message/newSms.php:58
+msgid ""
+"To enable a letter in a series of automatic dispatch, make the following "
+"entries"
+msgstr ""
+
+#: ../tpl/Message/new.php:86 ../tpl/Message/newSms.php:60
+msgid "Start day"
+msgstr ""
+
+#: ../tpl/Message/new.php:90 ../tpl/Message/newSms.php:64
+msgid "Start time"
+msgstr ""
+
+#: ../tpl/Message/newSms.php:25
+msgid ""
+"Phone number of the sender or the sender's name up to 11 alphanumeric "
+"characters"
+msgstr ""
+
+#: ../tpl/Message/newSms.php:35
+msgid ""
+"SMS text field with <a href=\"http://support.unisender.com/index.php?"
+"/Knowledgebase/Article/View/35/0/podstnovk-strok-v-pisme\" target = \"_ "
+"blank\"> placeholders </a>"
+msgstr ""
+
+#: ../tpl/Message/newSms.php:49
+msgid ""
+"Sending messages is only possible on the same ticket. To send a list of "
+"other necessary to create a new message"
+msgstr ""
+
+#: ../tpl/Message/view.php:16
+msgid "View E-mail"
+msgstr ""
+
+#: ../tpl/Activation/registration_form.php:2
+msgid "Unisender registration"
+msgstr ""
+
+#: ../tpl/Activation/registration_form.php:8 ../tpl/Activation/registration_form.
+#: php:12 ../tpl/Activation/login_form.php:7 ../tpl/Activation/login_form.php:11 .
+#: ./tpl/Activation/login_form.php:27
+msgid "Login"
+msgstr ""
+
+#: ../tpl/Activation/registration_form.php:18 ../tpl/Activation/registration_form.
+#: php:22
+msgid "E-mail"
+msgstr ""
+
+#: ../tpl/Activation/registration_form.php:28 ../tpl/Activation/registration_form.
+#: php:32
+msgid "First name"
+msgstr ""
+
+#: ../tpl/Activation/registration_form.php:38 ../tpl/Activation/registration_form.
+#: php:42
+msgid "Last name"
+msgstr ""
+
+#: ../tpl/Activation/registration_form.php:48 ../tpl/Activation/registration_form.
+#: php:52
+msgid "Password"
+msgstr ""
+
+#: ../tpl/Activation/registration_form.php:54
+msgid "Repeat password"
+msgstr ""
+
+#: ../tpl/Activation/registration_form.php:62
+msgid "Register"
+msgstr ""
+
+#: ../tpl/Activation/connection.php:4
+msgid ""
+"To get started in the application, you should to register in UniSender, "
+"using the registration form or to login if you already have an account "
+"UniSender"
+msgstr ""
+
+#: ../tpl/Activation/login_form.php:2
+msgid "UniSender login"
+msgstr ""
+
+#: ../tpl/Activation/login_form.php:16 ../tpl/Activation/login_form.php:20
+msgid "API Key"
+msgstr ""
+
+#: ../tpl/Field/edit.php:18
+msgid "Edit additional field"
+msgstr ""
+
+#: ../tpl/Field/edit.php:20 ../tpl/Field/list.php:39
+msgid "New additional field"
+msgstr ""
+
+#: ../tpl/Field/edit.php:30
+msgid "Displayed in subscription form as label"
+msgstr ""
+
+#: ../tpl/Field/edit.php:35 ../tpl/Field/edit.php:39
+msgid "Variable to substitute"
+msgstr ""
+
+#: ../tpl/Field/edit.php:40
+msgid ""
+"Allowed characters: Latin letters, numbers, _ and -. First character must be "
+"always a letter"
+msgstr ""
+
+#: ../tpl/Field/edit.php:45 ../tpl/Field/edit.php:48
+msgid "Placeholder"
+msgstr ""
+
+#: ../tpl/Field/edit.php:49
+msgid "Displayed in subscription form as placeholder"
+msgstr ""
+
+#: ../tpl/Field/edit.php:58
+msgid "Field type"
+msgstr ""
+
+#: ../tpl/Field/edit.php:59
+msgid "String"
+msgstr ""
+
+#: ../tpl/Field/edit.php:60
+msgid "Numeric"
+msgstr ""
+
+#: ../tpl/Field/edit.php:61
+msgid "Text"
+msgstr ""
+
+#: ../tpl/Field/edit.php:62
+msgid "Yes/No"
+msgstr ""
+
+#: ../tpl/Field/edit.php:63
+msgid "Date"
+msgstr ""
+
+#: ../tpl/Field/edit.php:65
+msgid ""
+"Carefully check the correct field type. For example, when you try to import "
+"a string in the \"Yes / No\", the system will return an error"
+msgstr ""
+
+#: ../tpl/Field/edit.php:70 ../tpl/Field/edit.php:74 ../tpl/Field/list.php:30
+msgid "Related WP field"
+msgstr ""
+
+#: ../tpl/Field/edit.php:75
+msgid ""
+"Related WP fields are user fields in WordPress, that you associate with "
+"fields UniSender. This link is included in the import/export. You can choose "
+"a field from the list below, or enter it manually"
+msgstr ""
+
+#: ../tpl/Field/edit.php:90 ../tpl/Field/list.php:34
+msgid "Enabled"
+msgstr ""
+
+#: ../tpl/Field/edit.php:94
+msgid ""
+"This setting affects the derivation of the field in the form, as well as "
+"import/export"
+msgstr ""
+
+#: ../tpl/Field/edit.php:99 ../tpl/Field/list.php:37
+msgid "Displays in form"
+msgstr ""
+
+#: ../tpl/Field/edit.php:100
+msgid "No affects on the import/export"
+msgstr ""
+
+#: ../tpl/Field/edit.php:108
+msgid "Required in form"
+msgstr ""
+
+#: ../tpl/Field/list.php:54
+msgid "The field email is mandatory and can not be edited"
+msgstr ""
+
+#: ../class/UnisenderField.php:33 ../class/UnisenderMessage.php:53 ..
+#: /class/UnisenderMessage.php:80 ../class/UnisenderForm.php:34 ..
+#: /class/UnisenderContactList.php:33 ../class/UnisenderContactList.php:133 ..
+#: /class/UnisenderContactList.php:222 ../class/UnisenderActivation.php:84 ..
+#: /class/UnisenderActivation.php:108
+msgid "Not all required fields are filled"
+msgstr ""
+
+#: ../class/UnisenderField.php:39
+msgid "The placeholder contains invalid characters"
+msgstr ""
+
+#: ../class/UnisenderField.php:57
+msgid "Related WP field is not found"
+msgstr ""
+
+#: ../class/UnisenderField.php:86
+msgid "The new additional field successfully created"
+msgstr ""
+
+#: ../class/UnisenderField.php:94 ../class/UnisenderField.php:138
+msgid "Additional field with this Id is not found"
+msgstr ""
+
+#: ../class/UnisenderField.php:120
+msgid "The additional field saved successfully"
+msgstr ""
+
+#: ../class/UnisenderField.php:134
+msgid "You have not specified Id field"
+msgstr ""
+
+#: ../class/UnisenderField.php:146
+msgid "An additional field is removed"
+msgstr ""
+
+#: ../class/UnisenderField.php:289 ../class/UnisenderMessage.php:233 ..
+#: /class/UnisenderForm.php:106 ../class/UnisenderContactList.php:403 ..
+#: /class/UnisenderActivation.php:223
+msgid "Are you sure you want to delete an item"
+msgstr ""
+
+#: ../class/UnisenderField.php:290 ../class/UnisenderMessage.php:234 ..
+#: /class/UnisenderForm.php:107 ../class/UnisenderContactList.php:404 ..
+#: /class/UnisenderActivation.php:224
+msgid "Set a list of the default #"
+msgstr ""
+
+#: ../class/UnisenderMessage.php:38 ../class/UnisenderMessage.php:111 ..
+#: /class/UnisenderMessage.php:185
+msgid "The list is not defined"
+msgstr ""
+
+#: ../class/UnisenderMessage.php:66
+msgid "Letter successfully created"
+msgstr ""
+
+#: ../class/UnisenderMessage.php:66 ../class/UnisenderMessage.php:91
+msgid "Attention. New letter can appear in the list within one minute"
+msgstr ""
+
+#: ../class/UnisenderMessage.php:91
+msgid "An SMS was successfully created"
+msgstr ""
+
+#: ../class/UnisenderMessage.php:101 ../class/UnisenderMessage.php:123 ..
+#: /class/UnisenderMessage.php:136 ../class/UnisenderMessage.php:160 ..
+#: /class/UnisenderMessage.php:178
+msgid "First select a letter or SMS"
+msgstr ""
+
+#: ../class/UnisenderMessage.php:167
+msgid "Message deleted"
+msgstr ""
+
+#: ../class/UnisenderMessage.php:190
+msgid "You have not specified when sending messages"
+msgstr ""
+
+#: ../class/UnisenderMessage.php:203
+msgid "Subscribe queued. All messages will be sent"
+msgstr ""
+
+#: ../class/UnisenderMessage.php:207
+msgid "Maybe there are no active contacts in list or required fields are not filled"
+msgstr ""
+
+#: ../class/UnisenderForm.php:39
+msgid "The contact list is not found"
+msgstr ""
+
+#: ../class/UnisenderForm.php:67
+msgid "Form settings saved"
+msgstr ""
+
+#: ../class/UnisenderForm.php:81
+msgid "You did not fill the required field"
+msgstr ""
+
+#: ../class/UnisenderForm.php:91
+msgid "Thanks for subscribe"
+msgstr ""
+
+#: ../class/UnisenderContactList.php:49
+msgid "New list has been successfully created"
+msgstr ""
+
+#: ../class/UnisenderContactList.php:56 ../class/UnisenderContactList.php:85 ..
+#: /class/UnisenderContactList.php:109 ../class/UnisenderContactList.php:128 ..
+#: /class/UnisenderContactList.php:217
+msgid "List with Id not found"
+msgstr ""
+
+#: ../class/UnisenderContactList.php:70
+msgid "List saved successfully"
+msgstr ""
+
+#: ../class/UnisenderContactList.php:93
+msgid "List deleted"
+msgstr ""
+
+#: ../class/UnisenderContactList.php:105 ../class/UnisenderContactList.php:123 ..
+#: /class/UnisenderContactList.php:213
+msgid "You have not specified Id list"
+msgstr ""
+
+#: ../class/UnisenderContactList.php:114
+msgid "The list is selected by default"
+msgstr ""
+
+#: ../class/UnisenderContactList.php:196
+msgid "Export incomplete. Error returned:"
+msgstr ""
+
+#: ../class/UnisenderContactList.php:203
+msgid "Export completed"
+msgstr ""
+
+#: ../class/UnisenderContactList.php:232
+msgid "Import incomplete. Error returned: "
+msgstr ""
+
+#: ../class/UnisenderContactList.php:270
+msgid "Synchronization is completed"
+msgstr ""
+
+#: ../class/UnisenderActivation.php:97
+msgid "Authorization successful"
+msgstr ""
+
+#: ../class/UnisenderActivation.php:112
+msgid "The entered passwords do not match"
+msgstr ""
+
+#: ../class/UnisenderActivation.php:121
+msgid ""
+"Congratulations upon successful registration! In your e-mail message sent to "
+"complete the registration"
+msgstr ""
+
+#: ../class/UnisenderApi.php:507
+msgid "Unable to contact the server Unisender. Try later or contact Customer Support"
+msgstr ""
+
+#: ../class/UnisenderApi.php:517
+msgid "Invalid API key"
+msgstr ""
+
+#: ../class/UnisenderApi.php:518
+msgid "API to be included in the account settings UniSender"
+msgstr ""
+
+#: ../class/UnisenderApi.php:519
+msgid "Introduced incorrect or incomplete data: "
+msgstr ""
